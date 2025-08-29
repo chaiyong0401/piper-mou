@@ -1,0 +1,32 @@
+[2.111s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper': PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[2.533s] /home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.533s]   warnings.warn(msg)
+[2.790s] running egg_info
+[2.844s] writing ../../build/piper/piper.egg-info/PKG-INFO
+[2.844s] writing dependency_links to ../../build/piper/piper.egg-info/dependency_links.txt
+[2.845s] writing entry points to ../../build/piper/piper.egg-info/entry_points.txt
+[2.845s] writing requirements to ../../build/piper/piper.egg-info/requires.txt
+[2.846s] writing top-level names to ../../build/piper/piper.egg-info/top_level.txt
+[2.930s] reading manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[2.930s] adding license file 'LICENSE'
+[2.933s] writing manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[2.933s] running build
+[2.934s] running build_py
+[2.934s] copying piper/piper_ctrl_single_node.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build/lib/piper
+[2.934s] copying piper/__init__.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build/lib/piper
+[2.935s] running install
+[2.944s] running install_lib
+[2.985s] running install_data
+[2.985s] copying resource/piper -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/ament_index/resource_index/packages
+[2.986s] copying package.xml -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper
+[2.987s] copying launch/start_single_piper_rviz.launch.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper/launch
+[2.987s] copying launch/start_single_piper.launch.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper/launch
+[2.987s] running install_egg_info
+[3.033s] removing '/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info' (and everything under it)
+[3.034s] Copying ../../build/piper/piper.egg-info to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info
+[3.036s] running install_scripts
+[3.112s] Installing piper_ms_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.112s] Installing piper_read_master script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.112s] Installing piper_single_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.114s] writing list of installed files to '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log'
+[3.155s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper' returned '0': PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data

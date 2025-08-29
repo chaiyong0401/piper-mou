@@ -1,0 +1,27 @@
+[0.694s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo -- -j12 -l12
+[0.872s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo -- -j12 -l12
+[0.883s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo
+[1.015s] -- Install configuration: ""
+[1.015s] -- Execute custom install script
+[1.015s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/launch/piper_no_gripper/piper_no_gripper_gazebo.launch.py
+[1.021s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/launch/piper_with_gripper/piper_gazebo.launch.py
+[1.021s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/config/ros2_controllers.yaml
+[1.021s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/config/ros2_no_gripper_controllers.yaml
+[1.021s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/scripts/joint8_ctrl.py
+[1.024s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/lib/piper_gazebo/joint8_ctrl.py
+[1.024s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/ament_index/resource_index/package_run_dependencies/piper_gazebo
+[1.024s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/ament_index/resource_index/parent_prefix_path/piper_gazebo
+[1.024s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/ament_prefix_path.sh
+[1.025s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/ament_prefix_path.dsv
+[1.025s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/path.sh
+[1.029s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/path.dsv
+[1.029s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.bash
+[1.030s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.sh
+[1.030s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.zsh
+[1.030s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.dsv
+[1.030s] -- Symlinking: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/package.dsv
+[1.041s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/ament_index/resource_index/packages/piper_gazebo
+[1.041s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/cmake/piper_gazeboConfig.cmake
+[1.042s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/cmake/piper_gazeboConfig-version.cmake
+[1.042s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo/share/piper_gazebo/package.xml
+[1.305s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_gazebo

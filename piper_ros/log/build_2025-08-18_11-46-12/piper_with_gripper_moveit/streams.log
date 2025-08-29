@@ -1,0 +1,191 @@
+[0.097s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit -- -j12 -l12
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_generator_c[0m
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target joint_goal_node[0m
+[0.248s] [  2%] Built target piper_with_gripper_moveit__cpp
+[0.248s] [ 10%] Built target piper_with_gripper_moveit__rosidl_generator_c
+[0.264s] [ 10%] Built target ament_cmake_python_symlink_piper_with_gripper_moveit
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_cpp[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp[0m
+[0.305s] [ 14%] Built target planning_scene_node
+[0.305s] [ 19%] Built target joint_goal_cmd_node
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c[0m
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_introspection_c[0m
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_c[0m
+[0.340s] [ 21%] [32mBuilding CXX object CMakeFiles/joint_goal_node.dir/src/joint_goal.cpp.o[0m
+[0.344s] [ 29%] Built target piper_with_gripper_moveit__rosidl_typesupport_cpp
+[0.358s] [ 38%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp
+[0.366s] [ 46%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp
+[0.380s] [ 55%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c
+[0.381s] [ 63%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_c
+[0.388s] [ 72%] Built target piper_with_gripper_moveit__rosidl_typesupport_c
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target pose_goal_node[0m
+[0.449s] [ 72%] Built target piper_with_gripper_moveit
+[0.513s] [ 74%] [32mBuilding CXX object CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o[0m
+[0.516s] [ 76%] Built target piper_with_gripper_moveit__py
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_generator_py[0m
+[0.600s] [ 82%] Built target piper_with_gripper_moveit__rosidl_generator_py
+[0.633s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.646s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_introspection_c__pyext[0m
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_c__pyext[0m
+[0.682s] [ 87%] Built target piper_with_gripper_moveit__rosidl_typesupport_c__pyext
+[0.683s] [ 91%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_c__pyext
+[0.688s] [ 95%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c__pyext
+[1.070s] running egg_info
+[1.135s] writing piper_with_gripper_moveit.egg-info/PKG-INFO
+[1.135s] writing dependency_links to piper_with_gripper_moveit.egg-info/dependency_links.txt
+[1.136s] writing top-level names to piper_with_gripper_moveit.egg-info/top_level.txt
+[1.320s] reading manifest file 'piper_with_gripper_moveit.egg-info/SOURCES.txt'
+[1.323s] writing manifest file 'piper_with_gripper_moveit.egg-info/SOURCES.txt'
+[1.414s] [ 95%] Built target ament_cmake_python_build_piper_with_gripper_moveit_egg
+[16.034s] [ 97%] [32m[1mLinking CXX executable joint_goal_node[0m
+[16.306s] [100%] [32m[1mLinking CXX executable pose_goal_node[0m
+[16.557s] [100%] Built target joint_goal_node
+[16.813s] [100%] Built target pose_goal_node
+[16.830s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit -- -j12 -l12
+[16.833s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit
+[16.843s] -- Install configuration: ""
+[16.844s] -- Execute custom install script
+[16.845s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/ament_index/resource_index/rosidl_interfaces/piper_with_gripper_moveit
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__functions.h
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__struct.h
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__type_support.h
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__functions.h
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__struct.h
+[16.846s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__type_support.h
+[16.847s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/pose_goal.h
+[16.847s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/target_pose.h
+[16.847s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/msg/rosidl_generator_c__visibility_control.h
+[16.847s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/library_path.sh
+[16.847s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/library_path.dsv
+[16.848s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__rosidl_typesupport_fastrtps_c.h
+[16.848s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__rosidl_typesupport_fastrtps_c.h
+[16.848s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.849s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__builder.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__struct.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__traits.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__type_support.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__builder.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__struct.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__traits.hpp
+[16.850s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__type_support.hpp
+[16.851s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/pose_goal.hpp
+[16.851s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/target_pose.hpp
+[16.851s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.852s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[16.852s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[16.852s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.853s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__rosidl_typesupport_introspection_c.h
+[16.853s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__rosidl_typesupport_introspection_c.h
+[16.853s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.854s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/pose_goal__rosidl_typesupport_introspection_cpp.hpp
+[16.854s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/include/piper_with_gripper_moveit/piper_with_gripper_moveit/action/detail/target_pose__rosidl_typesupport_introspection_cpp.hpp
+[16.854s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/pythonpath.sh
+[16.854s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/pythonpath.dsv
+[16.855s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit-0.3.0-py3.10.egg-info/PKG-INFO
+[16.855s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit-0.3.0-py3.10.egg-info/SOURCES.txt
+[16.855s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
+[16.855s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit-0.3.0-py3.10.egg-info/top_level.txt
+[16.856s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/__init__.py
+[16.856s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/_piper_with_gripper_moveit_s.ep.rosidl_typesupport_c.c
+[16.856s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/_piper_with_gripper_moveit_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/_piper_with_gripper_moveit_s.ep.rosidl_typesupport_introspection_c.c
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action/__init__.py
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action/_pose_goal.py
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action/_pose_goal_s.c
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action/_target_pose.py
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action/_target_pose_s.c
+[16.857s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/libpiper_with_gripper_moveit__rosidl_generator_py.so
+[16.858s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.858s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.858s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.858s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.859s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.859s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/piper_with_gripper_moveit_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.859s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/action/PoseGoal.idl
+[16.860s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/action/TargetPose.idl
+[16.860s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/action/PoseGoal.action
+[16.860s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/action/TargetPose.action
+[16.861s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/ament_index/resource_index/package_run_dependencies/piper_with_gripper_moveit
+[16.861s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/ament_index/resource_index/parent_prefix_path/piper_with_gripper_moveit
+[16.861s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/ament_prefix_path.sh
+[16.861s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/ament_prefix_path.dsv
+[16.862s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/path.sh
+[16.862s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/environment/path.dsv
+[16.862s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/local_setup.bash
+[16.862s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/local_setup.sh
+[16.863s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/local_setup.zsh
+[16.863s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/local_setup.dsv
+[16.863s] -- Symlinking: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.dsv
+[16.875s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/ament_index/resource_index/packages/piper_with_gripper_moveit
+[16.875s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/rosidl_cmake-extras.cmake
+[16.875s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.875s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.876s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/ament_cmake_export_libraries-extras.cmake
+[16.876s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/ament_cmake_export_targets-extras.cmake
+[16.876s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.877s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.877s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveitConfig.cmake
+[16.877s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveitConfig-version.cmake
+[16.878s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.xml
+[16.878s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/demo.launch.py
+[16.879s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/interface.launch.py
+[16.879s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/move_group.launch.py
+[16.879s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/moveit_rviz.launch.py
+[16.879s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/params_demo.launch.py
+[16.879s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/piper_moveit.launch.py
+[16.880s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/rsp.launch.py
+[16.880s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/setup_assistant.launch.py
+[16.880s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/spawn_controllers.launch.py
+[16.880s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/static_virtual_joint_tfs.launch.py
+[16.880s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/warehouse_db.launch.py
+[16.881s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/launch/wm_demo.launch.py
+[16.881s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/initial_positions.yaml
+[16.882s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/joint_limits.yaml
+[16.882s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/kinematics.yaml
+[16.882s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/moveit.rviz
+[16.882s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/moveit_controllers.yaml
+[16.882s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/ompl_plainning.yaml
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/pilz_cartesian_limits.yaml
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/piper.ros2_control.xacro
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/piper.srdf
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/piper.urdf.xacro
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/ros2_controllers.yaml
+[16.883s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/sensors_3d.yaml
+[16.884s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/config/trajectory_execution.yaml
+[16.884s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/.setup_assistant
+[16.884s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/planning_scene_node
+[16.885s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/joint_goal_node
+[16.885s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/joint_goal_cmd_node
+[16.885s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/pose_goal_node
+[16.885s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/cA.py
+[16.886s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/Logic_inte.py
+[16.886s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/piper_with_gripper_moveit/TEST.py
+[16.886s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_generator_c.so
+[16.887s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_fastrtps_c.so
+[16.887s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp.so
+[16.887s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_introspection_c.so
+[16.888s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_c.so
+[16.889s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_introspection_cpp.so
+[16.889s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_typesupport_cpp.so
+[16.948s] Listing '/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit'...
+[16.948s] Listing '/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/local/lib/python3.10/dist-packages/piper_with_gripper_moveit/action'...
+[16.955s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/lib/libpiper_with_gripper_moveit__rosidl_generator_py.so
+[16.955s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_generator_cExport.cmake
+[16.955s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_generator_cExport-noconfig.cmake
+[16.955s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cExport.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_generator_cppExport.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_introspection_cExport.cmake
+[16.956s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_cExport.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_cExport-noconfig.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_introspection_cppExport.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_cppExport.cmake
+[16.957s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/piper_with_gripper_moveit__rosidl_typesupport_cppExport-noconfig.cmake
+[16.958s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_generator_pyExport.cmake
+[16.958s] -- Up-to-date: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/cmake/export_piper_with_gripper_moveit__rosidl_generator_pyExport-noconfig.cmake
+[16.962s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit

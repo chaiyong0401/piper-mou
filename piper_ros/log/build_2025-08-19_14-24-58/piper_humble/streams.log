@@ -1,0 +1,21 @@
+[1.268s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble -- -j12 -l12
+[1.616s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble -- -j12 -l12
+[1.623s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble
+[1.729s] -- Install configuration: ""
+[1.730s] -- Execute custom install script
+[1.734s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/ament_index/resource_index/package_run_dependencies/piper_humble
+[1.735s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/ament_index/resource_index/parent_prefix_path/piper_humble
+[1.741s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/environment/ament_prefix_path.sh
+[1.741s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/environment/ament_prefix_path.dsv
+[1.748s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/environment/path.sh
+[1.759s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/environment/path.dsv
+[1.760s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/local_setup.bash
+[1.769s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/local_setup.sh
+[1.770s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/local_setup.zsh
+[1.770s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/local_setup.dsv
+[1.771s] -- Symlinking: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/package.dsv
+[1.844s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/ament_index/resource_index/packages/piper_humble
+[1.858s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig.cmake
+[1.861s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig-version.cmake
+[1.868s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble/share/piper_humble/package.xml
+[2.115s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_humble

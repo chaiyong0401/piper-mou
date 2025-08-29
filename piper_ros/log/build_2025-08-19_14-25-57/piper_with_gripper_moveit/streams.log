@@ -1,0 +1,63 @@
+[0.335s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit -- -j12 -l12
+[0.614s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.401s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.557s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.569s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.601s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.928s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.945s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.879s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.958s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.014s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.998s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.121s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.160s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.290s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.452s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.612s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.280s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.432s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.527s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.685s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[5.811s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[5.812s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.698s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.684s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.832s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.832s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.417s] -- Configuring done
+[13.117s] -- Generating done
+[13.309s] -- Build files have been written to: /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit
+[13.518s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.395s] [  2%] Built target piper_with_gripper_moveit__cpp
+[18.444s] [35m[1mConsolidate compiler generated dependencies of target joint_goal_cmd_node[0m
+[18.656s] [  6%] Built target joint_goal_cmd_node
+[18.694s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.717s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp[0m
+[21.804s] [ 10%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/piper_with_gripper_moveit/action/detail/pose_goal__type_support.cpp.o[0m
+[25.704s] [ 12%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/piper_with_gripper_moveit/action/detail/target_pose__type_support.cpp.o[0m
+[28.967s] [ 14%] [32m[1mLinking CXX shared library libpiper_with_gripper_moveit__rosidl_typesupport_introspection_cpp.so[0m
+[29.388s] [ 14%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp
+[29.435s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[33.284s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp[0m
+[33.349s] [ 19%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/piper_with_gripper_moveit/action/detail/dds_fastrtps/pose_goal__type_support.cpp.o[0m
+[35.767s] [ 21%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/piper_with_gripper_moveit/action/detail/dds_fastrtps/target_pose__type_support.cpp.o[0m
+[38.180s] [ 23%] [32m[1mLinking CXX shared library libpiper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.490s] [ 23%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp
+[38.531s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[40.817s] [35m[1mConsolidate compiler generated dependencies of target piper_with_gripper_moveit__rosidl_typesupport_cpp[0m
+[40.900s] [ 27%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/piper_with_gripper_moveit/action/pose_goal__type_support.cpp.o[0m
+[42.978s] [ 29%] [32mBuilding CXX object CMakeFiles/piper_with_gripper_moveit__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/piper_with_gripper_moveit/action/target_pose__type_support.cpp.o[0m
+[44.965s] [ 31%] [32m[1mLinking CXX shared library libpiper_with_gripper_moveit__rosidl_typesupport_cpp.so[0m
+[45.137s] [ 31%] Built target piper_with_gripper_moveit__rosidl_typesupport_cpp
+[45.190s] [35m[1mConsolidate compiler generated dependencies of target joint_goal_node[0m
+[45.306s] [ 36%] Built target joint_goal_node
+[45.356s] [35m[1mConsolidate compiler generated dependencies of target pose_goal_node[0m
+[45.489s] [ 38%] [32mBuilding CXX object CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o[0m

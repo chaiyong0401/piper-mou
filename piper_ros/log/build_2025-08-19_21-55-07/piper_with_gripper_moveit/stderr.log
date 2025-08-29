@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/pose_goal_node.dir/build.make:76: CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:677: CMakeFiles/pose_goal_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

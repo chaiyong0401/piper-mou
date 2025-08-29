@@ -1,0 +1,10 @@
+[01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:[m[K In member function ‘[01m[Kvoid PoseGoalActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<piper_with_gripper_moveit::action::PoseGoal> >&)[m[K’:
+[01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+  132 |   const [01;31m[Krobot_state[m[K::RobotStatePtr cur_state = move_group_->getCurrentState();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:133:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kcur_state[m[K’ was not declared in this scope
+  133 |   double cur_j1 = [01;31m[Kcur_state[m[K->getVariablePosition("joint1");
+      |                   [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pose_goal_node.dir/build.make:76: CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:677: CMakeFiles/pose_goal_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

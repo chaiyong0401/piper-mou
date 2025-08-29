@@ -1,0 +1,32 @@
+[2.282s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[2.749s] /home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.749s]   warnings.warn(msg)
+[3.036s] running egg_info
+[3.081s] writing ../../build/piper/piper.egg-info/PKG-INFO
+[3.082s] writing dependency_links to ../../build/piper/piper.egg-info/dependency_links.txt
+[3.082s] writing entry points to ../../build/piper/piper.egg-info/entry_points.txt
+[3.083s] writing requirements to ../../build/piper/piper.egg-info/requires.txt
+[3.083s] writing top-level names to ../../build/piper/piper.egg-info/top_level.txt
+[3.183s] reading manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[3.184s] adding license file 'LICENSE'
+[3.187s] writing manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[3.187s] running build
+[3.187s] running build_py
+[3.188s] copying piper/piper_ctrl_single_node.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build/lib/piper
+[3.189s] copying piper/__init__.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build/lib/piper
+[3.189s] running install
+[3.202s] running install_lib
+[3.250s] running install_data
+[3.251s] copying resource/piper -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/ament_index/resource_index/packages
+[3.251s] copying package.xml -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper
+[3.252s] copying launch/start_single_piper_rviz.launch.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper/launch
+[3.252s] copying launch/start_single_piper.launch.py -> /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/share/piper/launch
+[3.252s] running install_egg_info
+[3.314s] removing '/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info' (and everything under it)
+[3.315s] Copying ../../build/piper/piper.egg-info to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info
+[3.327s] running install_scripts
+[3.425s] Installing piper_ms_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.426s] Installing piper_read_master script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.426s] Installing piper_single_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[3.427s] writing list of installed files to '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log'
+[3.497s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data

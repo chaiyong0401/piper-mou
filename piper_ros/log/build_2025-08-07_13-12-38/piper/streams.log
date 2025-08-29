@@ -1,0 +1,24 @@
+[1.392s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper': PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[1.763s] running egg_info
+[1.765s] writing ../../build/piper/piper.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../../build/piper/piper.egg-info/dependency_links.txt
+[1.765s] writing entry points to ../../build/piper/piper.egg-info/entry_points.txt
+[1.766s] writing requirements to ../../build/piper/piper.egg-info/requires.txt
+[1.766s] writing top-level names to ../../build/piper/piper.egg-info/top_level.txt
+[1.768s] reading manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[1.769s] adding license file 'LICENSE'
+[1.770s] writing manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[1.770s] running build
+[1.770s] running build_py
+[1.770s] running install
+[1.771s] running install_lib
+[1.773s] running install_data
+[1.773s] running install_egg_info
+[1.775s] removing '/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info' (and everything under it)
+[1.776s] Copying ../../build/piper/piper.egg-info to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info
+[1.777s] running install_scripts
+[1.802s] Installing piper_ms_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[1.802s] Installing piper_read_master script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[1.802s] Installing piper_single_ctrl script to /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/piper
+[1.803s] writing list of installed files to '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log'
+[1.828s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper' returned '0': PYTHONPATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/build install --record /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper/install.log --single-version-externally-managed install_data

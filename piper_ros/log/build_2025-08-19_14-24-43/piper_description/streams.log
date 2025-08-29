@@ -1,0 +1,52 @@
+[0.179s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description -- -j12 -l12
+[1.204s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description -- -j12 -l12
+[1.247s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description
+[1.281s] -- Install configuration: ""
+[1.287s] -- Execute custom install script
+[1.290s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/launch/piper_no_gripper/display_no_gripper_urdf.launch.py
+[1.291s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/launch/piper_no_gripper/display_no_gripper_xacro.launch.py
+[1.292s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/launch/piper_with_gripper/display_urdf.launch.py
+[1.292s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/launch/piper_with_gripper/display_xacro.launch.py
+[1.301s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/D435i.STL
+[1.303s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/base_link.STL
+[1.304s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/gripper_base.STL
+[1.305s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link1.STL
+[1.306s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link2.STL
+[1.307s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link3.STL
+[1.313s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link4.STL
+[1.314s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link5.STL
+[1.314s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link6.STL
+[1.315s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link7.STL
+[1.315s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/meshes/link8.STL
+[1.317s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/rviz/piper_ctrl.rviz
+[1.318s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/rviz/piper_no_gripper.rviz
+[1.322s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/objects/basket.xacro
+[1.323s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/objects/shelf.xacro
+[1.325s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.csv
+[1.326s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.urdf
+[1.329s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.xacro
+[1.330s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_description_gazebo.xacro
+[1.330s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_description_old.urdf
+[1.331s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.csv
+[1.331s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.urdf
+[1.332s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.xacro
+[1.336s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description_gazebo.xacro
+[1.337s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description_old.urdf
+[1.341s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/mujoco_model/piper_description.xml
+[1.341s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/mujoco_model/piper_no_gripper_description.xml
+[1.341s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/ament_index/resource_index/package_run_dependencies/piper_description
+[1.342s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/ament_index/resource_index/parent_prefix_path/piper_description
+[1.342s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/environment/ament_prefix_path.sh
+[1.343s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/environment/ament_prefix_path.dsv
+[1.420s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/environment/path.sh
+[1.425s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/environment/path.dsv
+[1.429s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/local_setup.bash
+[1.430s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/local_setup.sh
+[1.431s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/local_setup.zsh
+[1.433s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/local_setup.dsv
+[1.434s] -- Symlinking: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/package.dsv
+[1.439s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/ament_index/resource_index/packages/piper_description
+[1.441s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/cmake/piper_descriptionConfig.cmake
+[1.442s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/cmake/piper_descriptionConfig-version.cmake
+[1.443s] -- Up-to-date symlink: /home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description/share/piper_description/package.xml
+[1.488s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_description

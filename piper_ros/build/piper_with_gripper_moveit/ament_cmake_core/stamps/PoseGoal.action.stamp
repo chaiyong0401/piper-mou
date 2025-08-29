@@ -1,0 +1,22 @@
+# PoseGoal.action
+# Goal
+geometry_msgs/PoseStamped target_pose
+float64 col
+float64 col2
+
+
+bool lock_rp_and_cartesian     # true면: 롤·피치 고정 + 카테시안 경로 시도
+float64 eef_step               # (카테시안) EE 보간 step [m], 예: 0.01
+float64 jump_threshold         # (카테시안) joint jump 임계, 예: 0.0 = disable
+float64 roll_tol_rad  
+float64 pitch_tol_rad             # 롤/피치 허용오차(라디안), 예: 0.1
+float64 yaw_tol_rad            # 야우 허용오차(라디안), 예: 3.14
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+string state

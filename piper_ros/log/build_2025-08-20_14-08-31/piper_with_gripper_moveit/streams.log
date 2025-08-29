@@ -1,0 +1,49 @@
+[0.090s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit -- -j12 -l12
+[0.246s] [  2%] Built target piper_with_gripper_moveit__cpp
+[0.259s] [ 10%] Built target piper_with_gripper_moveit__rosidl_generator_c
+[0.295s] [ 14%] Built target joint_goal_node
+[0.308s] [ 14%] Built target ament_cmake_python_symlink_piper_with_gripper_moveit
+[0.318s] [ 19%] Built target joint_goal_cmd_node
+[0.332s] [ 23%] Built target planning_scene_node
+[0.336s] [ 31%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c
+[0.347s] [ 40%] Built target piper_with_gripper_moveit__rosidl_typesupport_cpp
+[0.351s] [ 48%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_cpp
+[0.351s] [ 57%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_c
+[0.354s] [ 65%] Built target piper_with_gripper_moveit__rosidl_typesupport_c
+[0.355s] [ 74%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_cpp
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target pose_goal_node[0m
+[0.399s] [ 74%] Built target piper_with_gripper_moveit
+[0.433s] [ 76%] [32mBuilding CXX object CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o[0m
+[0.436s] [ 78%] Built target piper_with_gripper_moveit__py
+[0.480s] [ 85%] Built target piper_with_gripper_moveit__rosidl_generator_py
+[0.537s] [ 91%] Built target piper_with_gripper_moveit__rosidl_typesupport_c__pyext
+[0.538s] [ 93%] Built target piper_with_gripper_moveit__rosidl_typesupport_fastrtps_c__pyext
+[0.543s] [ 97%] Built target piper_with_gripper_moveit__rosidl_typesupport_introspection_c__pyext
+[0.974s] running egg_info
+[1.024s] writing piper_with_gripper_moveit.egg-info/PKG-INFO
+[1.025s] writing dependency_links to piper_with_gripper_moveit.egg-info/dependency_links.txt
+[1.025s] writing top-level names to piper_with_gripper_moveit.egg-info/top_level.txt
+[1.181s] reading manifest file 'piper_with_gripper_moveit.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'piper_with_gripper_moveit.egg-info/SOURCES.txt'
+[1.235s] [ 97%] Built target ament_cmake_python_build_piper_with_gripper_moveit_egg
+[8.440s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:226:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[8.441s]   226 | [01;31m[K}[m[K
+[8.441s]       | [01;31m[K^[m[K
+[8.441s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:22:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[8.441s]    22 | [01;36m[K{[m[K
+[8.441s]       | [01;36m[K^[m[K
+[8.512s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:[m[K In member function ‘[01m[Kvoid PoseGoalActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<piper_with_gripper_moveit::action::PoseGoal> >&)[m[K’:
+[8.513s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:182:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+[8.513s]   182 |   [01;31m[Kelse[m[K
+[8.513s]       |   [01;31m[K^~~~[m[K
+[8.513s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:102:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[8.513s]   102 | [01;36m[K{[m[K
+[8.513s]       | [01;36m[K^[m[K
+[8.521s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:[m[K At global scope:
+[8.521s] [01m[K/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/pose_goal.cpp:226:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[8.521s]   226 | [01;31m[K}[m[K
+[8.522s]       | [01;31m[K^[m[K
+[12.860s] gmake[2]: *** [CMakeFiles/pose_goal_node.dir/build.make:76: CMakeFiles/pose_goal_node.dir/src/pose_goal.cpp.o] Error 1
+[12.860s] gmake[1]: *** [CMakeFiles/Makefile2:677: CMakeFiles/pose_goal_node.dir/all] Error 2
+[12.860s] gmake: *** [Makefile:146: all] Error 2
+[12.864s] Invoked command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit' returned '2': CMAKE_PREFIX_PATH=/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_description:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/xela_server_ros2:/home/cheon/Documents/dyros/piper-mou/install/topic_based_ros2_control:/home/cheon/Documents/dyros/piper-mou/install/piper_with_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_no_gripper_moveit:/home/cheon/Documents/dyros/piper-mou/install/piper_msgs:/home/cheon/Documents/dyros/piper-mou/install/piper_humble:/home/cheon/Documents/dyros/piper-mou/install/piper_gazebo:/home/cheon/Documents/dyros/piper-mou/install/piper_description:/home/cheon/Documents/dyros/piper-mou/install/moveit_mujoco_interface:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_with_gripper_moveit -- -j12 -l12

@@ -1,0 +1,72 @@
+[0.405s] Invoking command in '/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cheon/Documents/dyros/piper-mou/piper_ros/install/piper:/home/cheon/Documents/dyros/piper-mou/install/piper_mujoco:/home/cheon/Documents/dyros/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_msgs -- -j12 -l12
+[0.533s] [  8%] Built target piper_msgs__cpp
+[0.533s] [ 12%] Built target piper_msgs__rosidl_generator_c
+[0.556s] [ 12%] Built target ament_cmake_python_symlink_piper_msgs
+[0.596s] [ 23%] Built target piper_msgs__rosidl_typesupport_cpp
+[0.602s] [ 34%] Built target piper_msgs__rosidl_typesupport_introspection_c
+[0.610s] [ 44%] Built target piper_msgs__rosidl_typesupport_fastrtps_cpp
+[0.618s] [ 55%] Built target piper_msgs__rosidl_typesupport_fastrtps_c
+[0.621s] [ 65%] Built target piper_msgs__rosidl_typesupport_introspection_cpp
+[0.628s] [ 76%] Built target piper_msgs__rosidl_typesupport_c
+[0.670s] [ 76%] Built target piper_msgs
+[0.715s] [ 78%] Built target piper_msgs__py
+[0.720s] gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/piper_msgs__rosidl_generator_py.dir/all] Interrupt
+[0.721s] Traceback (most recent call last):
+[0.723s]   File "/home/cheon/Documents/dyros/piper-mou/piper_ros/build/piper_msgs/ament_cmake_python/piper_msgs/setup.py", line 1, in <module>
+[0.723s]     from setuptools import find_packages
+[0.723s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 21, in <module>
+[0.724s]     import _distutils_hack.override  # noqa: F401
+[0.724s]   File "/home/cheon/.local/lib/python3.10/site-packages/_distutils_hack/override.py", line 1, in <module>
+[0.725s]     __import__('_distutils_hack').do_override()
+[0.727s]   File "/home/cheon/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 89, in do_override
+[0.728s]     ensure_local_distutils()
+[0.728s]   File "/home/cheon/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 72, in ensure_local_distutils
+[0.728s]     importlib.import_module('distutils')
+[0.729s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.729s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.729s]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[0.729s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.730s]   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+[0.730s]   File "<frozen importlib._bootstrap>", line 945, in _find_spec
+[0.730s]   File "/home/cheon/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 109, in find_spec
+[0.730s]     return method()
+[0.731s]   File "/home/cheon/.local/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 120, in spec_for_distutils
+[0.731s]     mod = importlib.import_module('setuptools._distutils')
+[0.731s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.731s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.732s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/__init__.py", line 12, in <module>
+[0.732s]     importlib.import_module('_distutils_system_mod')
+[0.733s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.733s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.733s]   File "/usr/lib/python3.10/_distutils_system_mod.py", line 15, in <module>
+[0.733s]     import distutils.sysconfig
+[0.734s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/sysconfig.py", line 24, in <module>
+[0.734s]     from .ccompiler import CCompiler
+[0.734s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/ccompiler.py", line 1, in <module>
+[0.735s]     from .compat.numpy import (  # noqa: F401
+[0.735s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/compat/numpy.py", line 2, in <module>
+[0.735s]     from ..compilers.C.base import _default_compilers, compiler_class  # noqa: F401
+[0.735s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/compilers/C/base.py", line 26, in <module>
+[0.736s]     from ..._modified import newer_group
+[0.736s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/_modified.py", line 12, in <module>
+[0.737s]     from .compat.py39 import zip_strict
+[0.737s]   File "/home/cheon/.local/lib/python3.10/site-packages/setuptools/_distutils/compat/py39.py", line 3, in <module>
+[0.737s]     import platform
+[0.737s]   File "/usr/lib/python3.10/platform.py", line 119, in <module>
+[0.738s]     import subprocess
+[0.738s]   File "/usr/lib/python3.10/subprocess.py", line 48, in <module>
+[0.738s]     import signal
+[0.739s]   File "/usr/lib/python3.10/signal.py", line 7, in <module>
+[0.739s]     _IntEnum._convert_(
+[0.739s]   File "/usr/lib/python3.10/enum.py", line 563, in _convert_
+[0.740s]     cls = cls(name, members, module=module)
+[0.740s]   File "/usr/lib/python3.10/enum.py", line 387, in __call__
+[0.741s]     return cls._create_(
+[0.741s]   File "/usr/lib/python3.10/enum.py", line 518, in _create_
+[0.742s]     enum_class = metacls.__new__(metacls, class_name, bases, classdict)
+[0.742s]   File "/usr/lib/python3.10/enum.py", line 298, in __new__
+[0.743s]     enum_member.__init__(*args)
+[0.743s] KeyboardInterrupt
+[0.752s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_piper_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_piper_msgs_egg] Interrupt
+[0.754s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_piper_msgs_egg.dir/all] Interrupt
+[0.754s] gmake: *** [Makefile:146: all] Interrupt
