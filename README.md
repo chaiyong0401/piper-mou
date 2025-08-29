@@ -46,21 +46,7 @@ ros2 launch piper_with_gripper_moveit wm_demo.launch.py
 ### 실제 하드웨어 제어 모드
 
 ```bash
-ros2 launch piper_with_gripper_moveit wm_demo.launch.py real:=true
-```
-
----
-
-## 3. 파일 실행
-
-### target_pose_server 실행
-
-```bash
-cd ros2_ws/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src
-python target_pose_server.py
-```
-
-### 실행파일 실행
+ros2 launch piper_함
 
 ```bash
 python Logic_inte_ba.py ## basket to wm
