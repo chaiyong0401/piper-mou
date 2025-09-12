@@ -1,0 +1,16 @@
+[01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:[m[K In constructor ‘[01m[KTRAC_IK::TRAC_IK::TRAC_IK(rclcpp::Node::SharedPtr, const string&, const string&, const string&, double, double, TRAC_IK::SolveType)[m[K’:
+[01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[KModel[m[K’ is not a member of ‘[01m[Kurdf[m[K’
+   50 |   urdf::[01;31m[KModel[m[K robot_model;
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+   64 |   if (![01;31m[Krobot_model[m[K.initString(xml_string))
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+   74 |   if (!kdl_parser::treeFromUrdfModel([01;31m[Krobot_model[m[K, tree))
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+   92 |     joint = [01;31m[Krobot_model[m[K.getJoint(chain_segs[i].getJoint().getName());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/trac_ik.dir/build.make:104: CMakeFiles/trac_ik.dir/src/trac_ik.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trac_ik.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

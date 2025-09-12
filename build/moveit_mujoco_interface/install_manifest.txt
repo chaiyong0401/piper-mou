@@ -1,0 +1,16 @@
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib/moveit_mujoco_interface/moveit_mujoco_interface
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/ament_index/resource_index/package_run_dependencies/moveit_mujoco_interface
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/ament_index/resource_index/parent_prefix_path/moveit_mujoco_interface
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/environment/ament_prefix_path.sh
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/environment/ament_prefix_path.dsv
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/environment/path.sh
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/environment/path.dsv
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/local_setup.bash
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/local_setup.sh
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/local_setup.zsh
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/local_setup.dsv
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.dsv
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/ament_index/resource_index/packages/moveit_mujoco_interface
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/cmake/moveit_mujoco_interfaceConfig.cmake
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/cmake/moveit_mujoco_interfaceConfig-version.cmake
+/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.xml

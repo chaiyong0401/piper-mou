@@ -1,0 +1,371 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_xela_server_ros2
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating xela_server_ros2.egg-info
+writing xela_server_ros2.egg-info/PKG-INFO
+writing dependency_links to xela_server_ros2.egg-info/dependency_links.txt
+writing top-level names to xela_server_ros2.egg-info/top_level.txt
+writing manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+reading manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+writing manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_xela_server_ros2_egg
+[  3%] Built target xela_server_ros2__cpp
+[  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  9%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_c.dir/rosidl_generator_c/xela_server_ros2/msg/detail/sensor_full__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_c.dir/rosidl_generator_c/xela_server_ros2/srv/detail/xela_sensor_stream__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_c.dir/rosidl_generator_c/xela_server_ros2/msg/detail/taxel__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_c.dir/rosidl_generator_c/xela_server_ros2/msg/detail/sens_stream__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_c.dir/rosidl_generator_c/xela_server_ros2/msg/detail/forces__functions.c.o[0m
+[ 17%] [32m[1mLinking C shared library libxela_server_ros2__rosidl_generator_c.so[0m
+[ 17%] Built target xela_server_ros2__rosidl_generator_c
+[ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xela_server_ros2/msg/sensor_full__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xela_server_ros2/msg/taxel__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xela_server_ros2/srv/xela_sensor_stream__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xela_server_ros2/msg/sens_stream__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xela_server_ros2/msg/forces__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xela_server_ros2/msg/detail/sensor_full__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xela_server_ros2/msg/detail/taxel__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xela_server_ros2/msg/detail/sens_stream__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xela_server_ros2/msg/detail/forces__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/xela_server_ros2/msg/sensor_full__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/xela_server_ros2/msg/sens_stream__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/xela_server_ros2/msg/taxel__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/xela_server_ros2/msg/forces__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/xela_server_ros2/srv/xela_sensor_stream__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xela_server_ros2/msg/detail/dds_fastrtps/sensor_full__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xela_server_ros2/msg/detail/dds_fastrtps/sens_stream__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xela_server_ros2/msg/detail/dds_fastrtps/taxel__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xela_server_ros2/msg/detail/dds_fastrtps/forces__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xela_server_ros2/srv/detail/dds_fastrtps/xela_sensor_stream__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libxela_server_ros2__rosidl_typesupport_c.so[0m
+[ 60%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xela_server_ros2/msg/detail/taxel__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xela_server_ros2/msg/detail/sens_stream__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xela_server_ros2/msg/detail/sensor_full__type_support.c.o[0m
+[ 60%] Built target xela_server_ros2__rosidl_typesupport_c
+[ 61%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xela_server_ros2/msg/detail/forces__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.c.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xela_server_ros2/msg/detail/taxel__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xela_server_ros2/msg/detail/sensor_full__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xela_server_ros2/msg/detail/sens_stream__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xela_server_ros2/msg/detail/forces__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xela_server_ros2/srv/detail/xela_sensor_stream__type_support_c.cpp.o[0m
+[ 73%] [32m[1mLinking C shared library libxela_server_ros2__rosidl_typesupport_introspection_c.so[0m
+[ 74%] [32m[1mLinking CXX shared library libxela_server_ros2__rosidl_typesupport_cpp.so[0m
+[ 74%] Built target xela_server_ros2__rosidl_typesupport_introspection_c
+[ 74%] Built target xela_server_ros2__rosidl_typesupport_cpp
+[ 76%] [32m[1mLinking CXX shared library libxela_server_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[ 77%] [32m[1mLinking CXX shared library libxela_server_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 79%] [32m[1mLinking CXX shared library libxela_server_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target xela_server_ros2__rosidl_typesupport_introspection_cpp
+[ 79%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c
+[ 79%] Built target xela_server_ros2
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target xela_server_ros2__py
+[ 88%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_py.dir/rosidl_generator_py/xela_server_ros2/msg/_forces_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_py.dir/rosidl_generator_py/xela_server_ros2/msg/_sens_stream_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_py.dir/rosidl_generator_py/xela_server_ros2/msg/_sensor_full_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_py.dir/rosidl_generator_py/xela_server_ros2/msg/_taxel_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_generator_py.dir/rosidl_generator_py/xela_server_ros2/srv/_xela_sensor_stream_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/xela_server_ros2/libxela_server_ros2__rosidl_generator_py.so[0m
+[ 90%] Built target xela_server_ros2__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/xela_server_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target xela_server_ros2__rosidl_typesupport_c__pyext
+[100%] [32m[1mLinking C shared library rosidl_generator_py/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target xela_server_ros2__rosidl_typesupport_introspection_c__pyext
+[100%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/rosidl_interfaces/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sensor_full.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/forces.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__functions.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__struct.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__struct.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__functions.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__functions.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__functions.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__functions.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__functions.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__struct.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__struct.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__functions.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__functions.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/taxel.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sens_stream.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/xela_sensor_stream.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__functions.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__struct.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__functions.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/library_path.sh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/library_path.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_c.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sensor_full.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/forces.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/taxel.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sens_stream.hpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__traits.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__traits.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__struct.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__builder.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__traits.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__builder.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__struct.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__struct.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__traits.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__builder.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__struct.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__builder.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.hpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/xela_sensor_stream.hpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__struct.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__builder.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__traits.hpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/dds_fastrtps
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/dds_fastrtps
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_c.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.cpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.cpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.cpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.cpp
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.cpp
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/pythonpath.sh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/pythonpath.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/__init__.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/__init__.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sens_stream_s.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sensor_full_s.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_forces.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_taxel_s.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sens_stream.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_taxel.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sensor_full.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_forces_s.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/__init__.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/_xela_sensor_stream_s.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/_xela_sensor_stream.py
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/libxela_server_ros2__rosidl_generator_py.so
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/__init__.py'...
+Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/__init__.py'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_forces.py'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sens_stream.py'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sensor_full.py'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_taxel.py'...
+Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/__init__.py'...
+Compiling '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/_xela_sensor_stream.py'...
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_py.so
+-- Set runtime path of "/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_py.so" to ""
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensorFull.idl
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensStream.idl
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Taxel.idl
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Forces.idl
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream.idl
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensorFull.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensStream.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Taxel.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Forces.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream.srv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream_Request.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream_Response.msg
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/xela_server_ros2/xela_server
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/xela_server_ros2/xela_service.py
+-- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/service.launch
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/package_run_dependencies/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/parent_prefix_path/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/path.sh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/path.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.bash
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.sh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.zsh
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.dsv
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/packages/xela_server_ros2
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cppExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_pyExport.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2Config.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2Config-version.cmake
+-- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.xml

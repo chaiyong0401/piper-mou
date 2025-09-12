@@ -1,8 +1,0 @@
-{
-  "package_name": "piper_msgs",
-  "non_idl_tuples": [
-    "/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_msgs:msg/PiperStatusMsg.msg",
-    "/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_msgs:msg/PosCmd.msg",
-    "/home/cheon/Documents/dyros/piper-mou/piper_ros/src/piper_msgs:srv/Enable.srv"
-  ]
-}

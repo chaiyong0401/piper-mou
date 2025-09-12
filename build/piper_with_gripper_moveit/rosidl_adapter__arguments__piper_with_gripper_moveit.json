@@ -1,0 +1,7 @@
+{
+  "package_name": "piper_with_gripper_moveit",
+  "non_idl_tuples": [
+    "/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit:action/PoseGoal.action",
+    "/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit:action/TargetPose.action"
+  ]
+}

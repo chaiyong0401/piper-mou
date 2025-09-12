@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xela_server_ros2__py",
+		"source" : "/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/xela_server_ros2__py"
+	}
+}

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from piper_with_gripper_moveit/action/TargetPose.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module piper_with_gripper_moveit {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct TargetPose_Goal {
+      boolean start;
+
+      string mode;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct TargetPose_Result {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "좌표값, 성공일 경우에만 유효")
+      geometry_msgs::msg::Pose target_pose;
+
+      int32 col;
+
+      double col2;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct TargetPose_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+{
+  "package_name": "xela_server_ros2",
+  "non_idl_tuples": [
+    "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2:msg/SensorFull.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2:msg/SensStream.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2:msg/Taxel.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2:msg/Forces.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2:srv/XelaSensorStream.srv"
+  ]
+}

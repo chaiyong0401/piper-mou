@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "piper_with_gripper_moveit__py",
+		"source" : "/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_with_gripper_moveit/piper_with_gripper_moveit__py"
+	}
+}

@@ -1,0 +1,246 @@
+[0.265s] Invoking command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2 -- -j20 -l20
+[0.328s] [  1%] Built target xela_server_ros2__cpp
+[0.331s] [ 12%] Built target xela_server_ros2__rosidl_generator_c
+[0.335s] [ 12%] Built target ament_cmake_python_copy_xela_server_ros2
+[0.355s] [ 23%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c
+[0.355s] [ 34%] Built target xela_server_ros2__rosidl_typesupport_introspection_c
+[0.356s] [ 46%] Built target xela_server_ros2__rosidl_typesupport_introspection_cpp
+[0.356s] [ 63%] Built target xela_server_ros2__rosidl_typesupport_cpp
+[0.356s] [ 71%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_cpp
+[0.356s] [ 79%] Built target xela_server_ros2__rosidl_typesupport_c
+[0.379s] [ 79%] Built target xela_server_ros2
+[0.410s] [ 80%] Built target xela_server_ros2__py
+[0.422s] [ 90%] Built target xela_server_ros2__rosidl_generator_py
+[0.447s] [ 93%] Built target xela_server_ros2__rosidl_typesupport_introspection_c__pyext
+[0.449s] [100%] Built target xela_server_ros2__rosidl_typesupport_c__pyext
+[0.449s] [100%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.635s] running egg_info
+[0.668s] writing xela_server_ros2.egg-info/PKG-INFO
+[0.669s] writing dependency_links to xela_server_ros2.egg-info/dependency_links.txt
+[0.669s] writing top-level names to xela_server_ros2.egg-info/top_level.txt
+[0.746s] reading manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+[0.748s] writing manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+[0.786s] [100%] Built target ament_cmake_python_build_xela_server_ros2_egg
+[0.808s] Invoked command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2 -- -j20 -l20
+[0.809s] Invoking command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2
+[0.810s] -- Install configuration: ""
+[0.810s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/rosidl_interfaces/xela_server_ros2
+[0.810s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.810s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.811s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_generator_c__visibility_control.h
+[0.811s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sensor_full.h
+[0.811s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/forces.h
+[0.811s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.811s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__functions.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__struct.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__struct.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__functions.c
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__functions.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__functions.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__functions.h
+[0.812s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.h
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__functions.c
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.h
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__struct.h
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__struct.h
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__functions.c
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.h
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__functions.c
+[0.813s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/taxel.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sens_stream.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/xela_sensor_stream.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__functions.c
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__struct.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__functions.h
+[0.814s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/library_path.sh
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/library_path.dsv
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_c.so
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_fastrtps_c.h
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_fastrtps_c.h
+[0.815s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_fastrtps_c.h
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_fastrtps_c.h
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_fastrtps_c.h
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_c.so
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.816s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sensor_full.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/forces.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/taxel.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/sens_stream.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__traits.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__traits.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__struct.hpp
+[0.817s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__builder.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__traits.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__builder.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__struct.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__struct.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__traits.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.hpp
+[0.818s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__builder.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__struct.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__builder.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/xela_sensor_stream.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__struct.hpp
+[0.819s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__builder.hpp
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.hpp
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__traits.hpp
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_fastrtps_cpp.hpp
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/dds_fastrtps
+[0.820s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_fastrtps_cpp.hpp
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_fastrtps_cpp.hpp
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_fastrtps_cpp.hpp
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/dds_fastrtps
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_fastrtps_cpp.so
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.821s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.c
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_introspection_c.h
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_introspection_c.h
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_introspection_c.h
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.c
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.c
+[0.822s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.c
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_introspection_c.h
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_introspection_c.h
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.c
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_c.so
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_c.so
+[0.823s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__rosidl_typesupport_introspection_cpp.hpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__rosidl_typesupport_introspection_cpp.hpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__rosidl_typesupport_introspection_cpp.hpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__type_support.cpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sens_stream__rosidl_typesupport_introspection_cpp.hpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/taxel__type_support.cpp
+[0.824s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/sensor_full__type_support.cpp
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/msg/detail/forces__type_support.cpp
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__rosidl_typesupport_introspection_cpp.hpp
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/include/xela_server_ros2/xela_server_ros2/srv/detail/xela_sensor_stream__type_support.cpp
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_introspection_cpp.so
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_typesupport_cpp.so
+[0.825s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/pythonpath.sh
+[0.826s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/pythonpath.dsv
+[0.826s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info
+[0.826s] -- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/dependency_links.txt
+[0.826s] -- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/SOURCES.txt
+[0.826s] -- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/top_level.txt
+[0.826s] -- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2-1.5.0-py3.10.egg-info/PKG-INFO
+[0.826s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2
+[0.826s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/__init__.py
+[0.826s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/__init__.py
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sens_stream_s.c
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sensor_full_s.c
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_forces.py
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_taxel_s.c
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sens_stream.py
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_taxel.py
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_sensor_full.py
+[0.827s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg/_forces_s.c
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/__init__.py
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/_xela_sensor_stream_s.c
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv/_xela_sensor_stream.py
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.828s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_c.c
+[0.829s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/libxela_server_ros2__rosidl_generator_py.so
+[0.829s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/_xela_server_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[0.851s] Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2'...
+[0.851s] Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/msg'...
+[0.851s] Listing '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/srv'...
+[0.856s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.856s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.856s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/local/lib/python3.10/dist-packages/xela_server_ros2/xela_server_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.857s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/libxela_server_ros2__rosidl_generator_py.so
+[0.857s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensorFull.idl
+[0.857s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensStream.idl
+[0.857s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Taxel.idl
+[0.858s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Forces.idl
+[0.859s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream.idl
+[0.859s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensorFull.msg
+[0.860s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/SensStream.msg
+[0.860s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Taxel.msg
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/msg/Forces.msg
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream.srv
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream_Request.msg
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/srv/XelaSensorStream_Response.msg
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/xela_server_ros2/xela_server
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/xela_server_ros2/xela_service.py
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/service.launch
+[0.861s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/package_run_dependencies/xela_server_ros2
+[0.862s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/parent_prefix_path/xela_server_ros2
+[0.862s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/ament_prefix_path.sh
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/ament_prefix_path.dsv
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/path.sh
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/environment/path.dsv
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.bash
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.sh
+[0.863s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.zsh
+[0.864s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/local_setup.dsv
+[0.864s] -- Installing: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.dsv
+[0.864s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/ament_index/resource_index/packages/xela_server_ros2
+[0.864s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cExport.cmake
+[0.864s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cExport-noconfig.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_cppExport.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cExport.cmake
+[0.865s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cExport.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cppExport.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_pyExport.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/export_xela_server_ros2__rosidl_generator_pyExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake-extras.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.866s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2Config.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/cmake/xela_server_ros2Config-version.cmake
+[0.867s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.xml
+[0.881s] Invoked command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2

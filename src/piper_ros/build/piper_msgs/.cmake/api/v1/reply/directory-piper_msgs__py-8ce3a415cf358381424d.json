@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "piper_msgs__py",
+		"source" : "/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs/piper_msgs__py"
+	}
+}

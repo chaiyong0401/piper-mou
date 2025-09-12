@@ -1,0 +1,5 @@
+/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/rosidl_adapter/xela_server_ros2:msg/SensorFull.idl
+/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/rosidl_adapter/xela_server_ros2:msg/SensStream.idl
+/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/rosidl_adapter/xela_server_ros2:msg/Taxel.idl
+/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/rosidl_adapter/xela_server_ros2:msg/Forces.idl
+/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/rosidl_adapter/xela_server_ros2:srv/XelaSensorStream.idl

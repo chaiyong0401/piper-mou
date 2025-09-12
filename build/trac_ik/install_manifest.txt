@@ -1,0 +1,15 @@
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/ament_index/resource_index/package_run_dependencies/trac_ik
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/ament_index/resource_index/parent_prefix_path/trac_ik
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/environment/ament_prefix_path.sh
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/environment/ament_prefix_path.dsv
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/environment/path.sh
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/environment/path.dsv
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/local_setup.bash
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/local_setup.sh
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/local_setup.zsh
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/local_setup.dsv
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.dsv
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/ament_index/resource_index/packages/trac_ik
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/cmake/trac_ikConfig.cmake
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/cmake/trac_ikConfig-version.cmake
+/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.xml

@@ -1,0 +1,1 @@
+Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_msgs -- -j20 -l20

@@ -1,0 +1,9 @@
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/uninstall.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/piper_humble_uninstall.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/test.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/edit_cache.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/rebuild_cache.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/list_install_components.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/install.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/install/local.dir
+/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_humble/CMakeFiles/install/strip.dir

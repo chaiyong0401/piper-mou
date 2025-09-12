@@ -1,0 +1,1034 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe97f08fe80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe97f0bfdc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe97f0bfdc0>>)
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dyros/mcy_ws/piper-mou'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-16_34_15) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_39_12) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_09_03-17_40_53) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_mujoco_interface) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_mujoco_interface' with type 'ros.ament_cmake' and name 'moveit_mujoco_interface'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/asserts/pictures) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/build) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/build) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/build) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/install) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/install) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/install) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/log) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper' with type 'ros.ament_python' and name 'piper'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_description) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_description' with type 'ros.ament_cmake' and name 'piper_description'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_humble) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_humble' with type 'ros.ament_cmake' and name 'piper_humble'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_no_gripper_moveit) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_moveit/piper_no_gripper_moveit' with type 'ros.ament_cmake' and name 'piper_no_gripper_moveit'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_moveit/piper_with_gripper_moveit) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_moveit/piper_with_gripper_moveit' with type 'ros.ament_cmake' and name 'piper_with_gripper_moveit'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_msgs) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_msgs' with type 'ros.ament_cmake' and name 'piper_msgs'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_ros/src/piper_sim/piper_gazebo) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_ros/src/piper_sim/piper_gazebo' with type 'ros.ament_cmake' and name 'piper_gazebo'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_based_ros2_control) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_based_ros2_control' with type 'ros.ament_cmake' and name 'topic_based_ros2_control'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_sensor) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/xela_server_ros2) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xela_server_ros2' with type 'ros.ament_cmake' and name 'xela_server_ros2'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/dyros/mcy_ws/piper-mou/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit/src/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dyros/tocabi_isaac_ws/install
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/humble
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'moveit_mujoco_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_mujoco_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/moveit_mujoco_interface', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'piper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'piper_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_description', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_description', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'piper_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_sim/piper_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'piper_humble' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_humble', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_humble', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_humble', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'piper_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_msgs', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'topic_based_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/topic_based_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'xela_server_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'xela_server_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'piper_no_gripper_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_no_gripper_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'piper_with_gripper_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dyros/mcy_ws/piper-mou/build/trac_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dyros/mcy_ws/piper-mou/install/trac_ik', 'merge_install': False, 'path': '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik', 'symlink_install': False, 'test_result_base': None}
+[0.344s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_description' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_description'
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib' with build type 'ament_cmake'
+[0.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/moveit_mujoco_interface' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/moveit_mujoco_interface'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper' with build type 'ament_python'
+[0.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper', 'ament_prefix_path')
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/ament_prefix_path.ps1'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/ament_prefix_path.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/ament_prefix_path.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_sim/piper_gazebo' with build type 'ament_cmake'
+[0.377s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_sim/piper_gazebo'
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_humble' with build type 'ament_cmake'
+[0.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_humble'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/topic_based_ros2_control' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/topic_based_ros2_control'
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2' with build type 'ament_cmake'
+[0.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_description -- -j20 -l20
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib -- -j20 -l20
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface -- -j20 -l20
+[0.624s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper'
+[0.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_gazebo -- -j20 -l20
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_humble -- -j20 -l20
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_msgs -- -j20 -l20
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control -- -j20 -l20
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2 -- -j20 -l20
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib -- -j20 -l20
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_description -- -j20 -l20
+[0.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_description
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface -- -j20 -l20
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface
+[0.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib' for CMake module files
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib' for CMake config files
+[0.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_gazebo -- -j20 -l20
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib'
+[0.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_gazebo
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/bin'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/bin'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_humble -- -j20 -l20
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_humble
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib' for CMake module files
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib'
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/bin'
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_description)
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description' for CMake module files
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description' for CMake config files
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_description
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_description', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.sh'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/bin'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/lib/pkgconfig/piper_description.pc'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/lib/python3.10/site-packages'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/bin'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.bash'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.zsh'
+[0.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_description/share/colcon-core/packages/piper_description)
+[0.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_description)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description' for CMake module files
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_description', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/lib/pkgconfig/piper_description.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/lib/python3.10/site-packages'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_description/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_description/share/piper_description/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_description/share/colcon-core/packages/piper_description)
+[0.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_no_gripper_moveit' with build type 'ament_cmake'
+[0.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_no_gripper_moveit'
+[0.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit' with build type 'ament_cmake'
+[0.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_moveit/piper_with_gripper_moveit'
+[0.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_gazebo)
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo' for CMake module files
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_gazebo
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo' for CMake config files
+[0.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_gazebo', 'cmake_prefix_path')
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/bin'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib/pkgconfig/piper_gazebo.pc'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib/python3.10/site-packages'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/bin'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.sh'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.bash'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.zsh'
+[0.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/colcon-core/packages/piper_gazebo)
+[0.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_gazebo)
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo' for CMake module files
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo' for CMake config files
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_gazebo', 'cmake_prefix_path')
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/bin'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib/pkgconfig/piper_gazebo.pc'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/lib/python3.10/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/bin'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.dsv'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.sh'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.bash'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/piper_gazebo/package.zsh'
+[0.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_gazebo/share/colcon-core/packages/piper_gazebo)
+[0.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_humble)
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble' for CMake module files
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble' for CMake config files
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_humble
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_humble', 'cmake_prefix_path')
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/lib/pkgconfig/piper_humble.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/lib/python3.10/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.sh'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/colcon-core/packages/piper_humble)
+[0.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_humble)
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble' for CMake module files
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble' for CMake config files
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_humble', 'cmake_prefix_path')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.sh'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/bin'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/lib/pkgconfig/piper_humble.pc'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/lib/python3.10/site-packages'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_humble/bin'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.sh'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/colcon-core/packages/piper_humble)
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control -- -j20 -l20
+[0.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_mujoco_interface)
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface' for CMake module files
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control
+[0.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface' for CMake config files
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_mujoco_interface', 'cmake_prefix_path')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/bin'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib/pkgconfig/moveit_mujoco_interface.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib/python3.10/site-packages'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/bin'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.bash'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.zsh'
+[0.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/colcon-core/packages/moveit_mujoco_interface)
+[0.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_mujoco_interface)
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface' for CMake module files
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface' for CMake config files
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_mujoco_interface', 'cmake_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/hook/cmake_prefix_path.sh'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/bin'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib/pkgconfig/moveit_mujoco_interface.pc'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/lib/python3.10/site-packages'
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/bin'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.bash'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/moveit_mujoco_interface/package.zsh'
+[0.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface/share/colcon-core/packages/moveit_mujoco_interface)
+[0.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit -- -j20 -l20
+[0.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit -- -j20 -l20
+[0.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control' for CMake module files
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control' for CMake config files
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik -- -j20 -l20
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/topic_based_ros2_control
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib'
+[0.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/bin'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/bin'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[0.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[0.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control' for CMake config files
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib'
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/bin'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/bin'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[0.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[0.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit -- -j20 -l20
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik -- -j20 -l20
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/trac_ik
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_no_gripper_moveit)
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit' for CMake config files
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_no_gripper_moveit', 'cmake_prefix_path')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.sh'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/bin'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/lib/pkgconfig/piper_no_gripper_moveit.pc'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/lib/python3.10/site-packages'
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/bin'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.dsv'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.sh'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.bash'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.zsh'
+[0.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/colcon-core/packages/piper_no_gripper_moveit)
+[0.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_no_gripper_moveit)
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit' for CMake module files
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit' for CMake config files
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_no_gripper_moveit
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_no_gripper_moveit', 'cmake_prefix_path')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/lib/pkgconfig/piper_no_gripper_moveit.pc'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/bin'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.sh'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.bash'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.zsh'
+[0.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit/share/colcon-core/packages/piper_no_gripper_moveit)
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik' for CMake module files
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/trac_ik
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik' for CMake config files
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/lib/python3.10/site-packages'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/bin'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.zsh'
+[0.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/colcon-core/packages/trac_ik)
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik' for CMake module files
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik' for CMake config files
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/bin'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/lib/python3.10/site-packages'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/trac_ik/bin'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.sh'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.bash'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/trac_ik/package.zsh'
+[0.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/trac_ik/share/colcon-core/packages/trac_ik)
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2 -- -j20 -l20
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_msgs -- -j20 -l20
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_msgs
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xela_server_ros2)
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('xela_server_ros2', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.sh'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('xela_server_ros2', 'ld_library_path_lib')
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.sh'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/bin'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/pkgconfig/xela_server_ros2.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/python3.10/site-packages'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/bin'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/colcon-core/packages/xela_server_ros2)
+[1.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xela_server_ros2)
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2' for CMake module files
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2' for CMake config files
+[1.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('xela_server_ros2', 'cmake_prefix_path')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/cmake_prefix_path.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib'
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('xela_server_ros2', 'ld_library_path_lib')
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/hook/ld_library_path_lib.sh'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/bin'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/pkgconfig/xela_server_ros2.pc'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/lib/python3.10/site-packages'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/bin'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.sh'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.bash'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/xela_server_ros2/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2/share/colcon-core/packages/xela_server_ros2)
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_msgs)
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs' for CMake module files
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs' for CMake config files
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'cmake_prefix_path')
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib'
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'ld_library_path_lib')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.ps1'
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_msgs
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib/pkgconfig/piper_msgs.pc'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib/python3.10/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.dsv'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.bash'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.zsh'
+[1.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/colcon-core/packages/piper_msgs)
+[1.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_msgs)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs' for CMake module files
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs' for CMake config files
+[1.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.sh'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'ld_library_path_lib')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/bin'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib/pkgconfig/piper_msgs.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/lib/python3.10/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/bin'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/piper_msgs/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_msgs/share/colcon-core/packages/piper_msgs)
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit -- -j20 -l20
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper': PYTHONPATH=/home/dyros/mcy_ws/piper-mou/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyros/mcy_ws/piper-mou/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/piper build --build-base /home/dyros/mcy_ws/piper-mou/build/piper/build install --record /home/dyros/mcy_ws/piper-mou/build/piper/install.log --single-version-externally-managed install_data
+[1.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_with_gripper_moveit)
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit' for CMake module files
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit' for CMake config files
+[1.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/dyros/mcy_ws/piper-mou/install/piper_description:/home/dyros/mcy_ws/piper-mou/install/trac_ik:/home/dyros/mcy_ws/piper-mou/install/trac_ik_lib:/home/dyros/mcy_ws/piper-mou/install/xela_server_ros2:/home/dyros/mcy_ws/piper-mou/install/topic_based_ros2_control:/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_no_gripper_moveit:/home/dyros/mcy_ws/piper-mou/install/piper_msgs:/home/dyros/mcy_ws/piper-mou/install/piper_humble:/home/dyros/mcy_ws/piper-mou/install/piper_gazebo:/home/dyros/mcy_ws/piper-mou/install/moveit_mujoco_interface:/home/dyros/tocabi_isaac_ws/install/tocabi_cc_ros2:/home/dyros/tocabi_isaac_ws/install/tocabi_lib:/home/dyros/tocabi_isaac_ws/install/tocabi_msgs:/home/dyros/tocabi_isaac_ws/install/tocabi_isaacsim_ros2:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/build/piper_with_gripper_moveit
+[1.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.ps1'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib'
+[1.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'ld_library_path_lib')
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.sh'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/bin'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib/pkgconfig/piper_with_gripper_moveit.pc'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib/python3.10/site-packages'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/bin'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.zsh'
+[1.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/colcon-core/packages/piper_with_gripper_moveit)
+[1.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_with_gripper_moveit)
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit' for CMake module files
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit' for CMake config files
+[1.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'cmake_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib'
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'ld_library_path_lib')
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/ld_library_path_lib.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/bin'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib/pkgconfig/piper_with_gripper_moveit.pc'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/lib/python3.10/site-packages'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/bin'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.sh'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.bash'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.zsh'
+[1.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper_with_gripper_moveit/share/colcon-core/packages/piper_with_gripper_moveit)
+[1.720s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper' for CMake module files
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper' returned '0': PYTHONPATH=/home/dyros/mcy_ws/piper-mou/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyros/mcy_ws/piper-mou/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/piper build --build-base /home/dyros/mcy_ws/piper-mou/build/piper/build install --record /home/dyros/mcy_ws/piper-mou/build/piper/install.log --single-version-externally-managed install_data
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper' for CMake config files
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper/lib'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper/bin'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper/lib/pkgconfig/piper.pc'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper/lib/python3.10/site-packages'
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper', 'pythonpath')
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/pythonpath.ps1'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/pythonpath.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/hook/pythonpath.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/dyros/mcy_ws/piper-mou/install/piper/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper)
+[1.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/package.ps1'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/package.dsv'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/package.sh'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/package.bash'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/dyros/mcy_ws/piper-mou/install/piper/share/piper/package.zsh'
+[1.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dyros/mcy_ws/piper-mou/install/piper/share/colcon-core/packages/piper)
+[1.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.731s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.739s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/mcy_ws/piper-mou/install/local_setup.ps1'
+[1.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyros/mcy_ws/piper-mou/install/_local_setup_util_ps1.py'
+[1.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/mcy_ws/piper-mou/install/setup.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/mcy_ws/piper-mou/install/local_setup.sh'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dyros/mcy_ws/piper-mou/install/_local_setup_util_sh.py'
+[1.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/mcy_ws/piper-mou/install/setup.sh'
+[1.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/mcy_ws/piper-mou/install/local_setup.bash'
+[1.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/mcy_ws/piper-mou/install/setup.bash'
+[1.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dyros/mcy_ws/piper-mou/install/local_setup.zsh'
+[1.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dyros/mcy_ws/piper-mou/install/setup.zsh'

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-97361e376a985fea26dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_mujoco_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_mujoco_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_mujoco_interface-a477082ca7e95f04ae33.json",
+					"name" : "moveit_mujoco_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_mujoco_interface_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_mujoco_interface_lib-98bdb284b25e756df2ce.json",
+					"name" : "moveit_mujoco_interface_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_mujoco_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_mujoco_interface_uninstall-89725e57143b2fcf9110.json",
+					"name" : "moveit_mujoco_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bfbf5f12563ed590757b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dyros/mcy_ws/piper-mou/build/moveit_mujoco_interface",
+		"source" : "/home/dyros/mcy_ws/piper-mou/src/moveit_mujoco_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

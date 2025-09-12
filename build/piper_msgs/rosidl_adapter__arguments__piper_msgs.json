@@ -1,0 +1,8 @@
+{
+  "package_name": "piper_msgs",
+  "non_idl_tuples": [
+    "/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs:msg/PiperStatusMsg.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs:msg/PosCmd.msg",
+    "/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs:srv/Enable.srv"
+  ]
+}

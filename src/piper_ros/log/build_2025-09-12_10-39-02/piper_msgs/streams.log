@@ -1,0 +1,305 @@
+[0.208s] Invoking command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake /home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs -DCMAKE_INSTALL_PREFIX=/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[0.302s] -- The CXX compiler identification is GNU 11.4.0
+[0.308s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.377s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.846s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.975s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.978s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.995s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.349s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.830s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.856s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.856s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.856s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.878s] -- Found PythonExtra: .so  
+[1.918s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.950s] -- Added test 'lint_cmake' to check CMake code style
+[1.951s] -- Added test 'xmllint' to check XML markup files
+[1.954s] -- Configuring done
+[1.981s] -- Generating done
+[1.991s] -- Build files have been written to: /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs
+[1.996s] Invoked command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake /home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_msgs -DCMAKE_INSTALL_PREFIX=/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs
+[1.997s] Invoking command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs -- -j20 -l20
+[2.031s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.040s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.047s] [  4%] Built target ament_cmake_python_copy_piper_msgs
+[2.289s] running egg_info
+[2.310s] creating piper_msgs.egg-info
+[2.310s] writing piper_msgs.egg-info/PKG-INFO
+[2.310s] writing dependency_links to piper_msgs.egg-info/dependency_links.txt
+[2.311s] writing top-level names to piper_msgs.egg-info/top_level.txt
+[2.311s] writing manifest file 'piper_msgs.egg-info/SOURCES.txt'
+[2.370s] reading manifest file 'piper_msgs.egg-info/SOURCES.txt'
+[2.370s] writing manifest file 'piper_msgs.egg-info/SOURCES.txt'
+[2.394s] [  4%] Built target ament_cmake_python_build_piper_msgs_egg
+[2.425s] [  8%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_c.dir/rosidl_generator_c/piper_msgs/msg/detail/pos_cmd__functions.c.o[0m
+[2.425s] [  8%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_c.dir/rosidl_generator_c/piper_msgs/msg/detail/piper_status_msg__functions.c.o[0m
+[2.426s] [ 10%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_c.dir/rosidl_generator_c/piper_msgs/srv/detail/enable__functions.c.o[0m
+[2.428s] [ 10%] Built target piper_msgs__cpp
+[2.437s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.437s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.437s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.475s] [ 19%] [32m[1mLinking C shared library libpiper_msgs__rosidl_generator_c.so[0m
+[2.508s] [ 19%] Built target piper_msgs__rosidl_generator_c
+[2.518s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.518s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.518s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.740s] [ 31%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/piper_msgs/srv/enable__type_support.cpp.o[0m
+[2.740s] [ 31%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/piper_msgs/msg/pos_cmd__type_support.cpp.o[0m
+[2.740s] [ 31%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/piper_msgs/msg/piper_status_msg__type_support.cpp.o[0m
+[2.775s] [ 36%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/piper_msgs/msg/detail/pos_cmd__type_support.cpp.o[0m
+[2.775s] [ 36%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/piper_msgs/msg/detail/piper_status_msg__type_support.cpp.o[0m
+[2.778s] [ 38%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/piper_msgs/srv/detail/enable__type_support.cpp.o[0m
+[2.816s] [ 40%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/piper_msgs/msg/detail/dds_fastrtps/piper_status_msg__type_support.cpp.o[0m
+[2.820s] [ 44%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/piper_msgs/msg/detail/dds_fastrtps/pos_cmd__type_support.cpp.o[0m
+[2.820s] [ 44%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/piper_msgs/srv/detail/dds_fastrtps/enable__type_support.cpp.o[0m
+[2.820s] [ 46%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/piper_msgs/msg/piper_status_msg__type_support.cpp.o[0m
+[2.822s] [ 48%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/piper_msgs/msg/pos_cmd__type_support.cpp.o[0m
+[2.822s] [ 51%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/piper_msgs/srv/enable__type_support.cpp.o[0m
+[2.865s] [ 53%] [32m[1mLinking CXX shared library libpiper_msgs__rosidl_typesupport_c.so[0m
+[2.869s] [ 55%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/piper_msgs/msg/detail/piper_status_msg__type_support.c.o[0m
+[2.873s] [ 59%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/piper_msgs/srv/detail/enable__type_support.c.o[0m
+[2.873s] [ 59%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/piper_msgs/msg/detail/pos_cmd__type_support.c.o[0m
+[2.913s] [ 61%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/piper_msgs/msg/detail/pos_cmd__type_support_c.cpp.o[0m
+[2.914s] [ 63%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/piper_msgs/srv/detail/enable__type_support_c.cpp.o[0m
+[2.914s] [ 65%] [32mBuilding CXX object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/piper_msgs/msg/detail/piper_status_msg__type_support_c.cpp.o[0m
+[2.918s] [ 65%] Built target piper_msgs__rosidl_typesupport_c
+[2.921s] [ 68%] [32m[1mLinking C shared library libpiper_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.950s] [ 68%] Built target piper_msgs__rosidl_typesupport_introspection_c
+[3.126s] [ 70%] [32m[1mLinking CXX shared library libpiper_msgs__rosidl_typesupport_cpp.so[0m
+[3.165s] [ 70%] Built target piper_msgs__rosidl_typesupport_cpp
+[3.273s] [ 72%] [32m[1mLinking CXX shared library libpiper_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.290s] [ 74%] [32m[1mLinking CXX shared library libpiper_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.312s] [ 74%] Built target piper_msgs__rosidl_typesupport_introspection_cpp
+[3.354s] [ 74%] Built target piper_msgs__rosidl_typesupport_fastrtps_cpp
+[3.363s] [ 76%] [32m[1mLinking CXX shared library libpiper_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.424s] [ 76%] Built target piper_msgs__rosidl_typesupport_fastrtps_c
+[3.441s] [ 76%] Built target piper_msgs
+[3.457s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.978s] [ 78%] Built target piper_msgs__py
+[3.993s] [ 85%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_py.dir/rosidl_generator_py/piper_msgs/msg/_pos_cmd_s.c.o[0m
+[3.993s] [ 85%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_py.dir/rosidl_generator_py/piper_msgs/msg/_piper_status_msg_s.c.o[0m
+[3.993s] [ 85%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_generator_py.dir/rosidl_generator_py/piper_msgs/srv/_enable_s.c.o[0m
+[4.073s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/piper_msgs/libpiper_msgs__rosidl_generator_py.so[0m
+[4.102s] [ 87%] Built target piper_msgs__rosidl_generator_py
+[4.118s] [ 93%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.118s] [ 93%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.118s] [ 93%] [32mBuilding C object CMakeFiles/piper_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.205s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/piper_msgs/piper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.206s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/piper_msgs/piper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.213s] [100%] [32m[1mLinking C shared library rosidl_generator_py/piper_msgs/piper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.235s] [100%] Built target piper_msgs__rosidl_typesupport_c__pyext
+[4.236s] [100%] Built target piper_msgs__rosidl_typesupport_introspection_c__pyext
+[4.245s] [100%] Built target piper_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.256s] Invoked command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs -- -j20 -l20
+[4.258s] Invoking command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs
+[4.265s] -- Install configuration: ""
+[4.265s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/ament_index/resource_index/rosidl_interfaces/piper_msgs
+[4.265s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.265s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.265s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/pos_cmd.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/piper_status_msg.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__type_support.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__functions.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__functions.h
+[4.266s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__functions.c
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__type_support.h
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__struct.h
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__functions.c
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__struct.h
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/enable.h
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__type_support.h
+[4.267s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__functions.c
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__struct.h
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__functions.h
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/library_path.sh
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/library_path.dsv
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_generator_c.so
+[4.268s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_generator_c.so" to ""
+[4.268s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.268s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.268s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.269s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.269s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__rosidl_typesupport_fastrtps_c.h
+[4.269s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__rosidl_typesupport_fastrtps_c.h
+[4.269s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.269s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.269s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__rosidl_typesupport_fastrtps_c.h
+[4.269s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_fastrtps_c.so
+[4.269s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.269s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.269s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.270s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.270s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__rosidl_typesupport_introspection_c.h
+[4.270s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__rosidl_typesupport_introspection_c.h
+[4.270s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__type_support.c
+[4.270s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__type_support.c
+[4.270s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.270s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.270s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.271s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__rosidl_typesupport_introspection_c.h
+[4.271s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__type_support.c
+[4.271s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_introspection_c.so
+[4.271s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.271s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_c.so
+[4.271s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_c.so" to ""
+[4.271s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.271s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.271s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/piper_status_msg.hpp
+[4.272s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__traits.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__type_support.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__builder.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__struct.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__builder.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__struct.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__type_support.hpp
+[4.272s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__traits.hpp
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/pos_cmd.hpp
+[4.273s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/enable.hpp
+[4.273s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__traits.hpp
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__builder.hpp
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__struct.hpp
+[4.273s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__type_support.hpp
+[4.274s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.274s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.274s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.274s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.274s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/dds_fastrtps
+[4.274s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.274s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.275s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__rosidl_typesupport_fastrtps_cpp.hpp
+[4.275s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/dds_fastrtps
+[4.275s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.275s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.275s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs
+[4.275s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg
+[4.275s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail
+[4.275s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.275s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/pos_cmd__type_support.cpp
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/msg/detail/piper_status_msg__type_support.cpp
+[4.276s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv
+[4.276s] -- Up-to-date: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__type_support.cpp
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/include/piper_msgs/piper_msgs/srv/detail/enable__rosidl_typesupport_introspection_cpp.hpp
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_introspection_cpp.so
+[4.276s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.276s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_cpp.so
+[4.277s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_typesupport_cpp.so" to ""
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/pythonpath.sh
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/pythonpath.dsv
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs-0.0.0-py3.10.egg-info
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs
+[4.277s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/__init__.py
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_c.c
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/__init__.py
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_pos_cmd_s.c
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_piper_status_msg.py
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_piper_status_msg_s.c
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_pos_cmd.py
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv/__init__.py
+[4.278s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv/_enable.py
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv/_enable_s.c
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/libpiper_msgs__rosidl_generator_py.so
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/_piper_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.279s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.315s] Listing '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs'...
+[4.315s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/__init__.py'...
+[4.315s] Listing '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg'...
+[4.316s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/__init__.py'...
+[4.316s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_piper_status_msg.py'...
+[4.316s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/msg/_pos_cmd.py'...
+[4.316s] Listing '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv'...
+[4.316s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv/__init__.py'...
+[4.316s] Compiling '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/srv/_enable.py'...
+[4.321s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.321s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.321s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/local/lib/python3.10/dist-packages/piper_msgs/piper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_generator_py.so
+[4.322s] -- Set runtime path of "/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/lib/libpiper_msgs__rosidl_generator_py.so" to ""
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/msg/PiperStatusMsg.idl
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/msg/PosCmd.idl
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/srv/Enable.idl
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/msg/PiperStatusMsg.msg
+[4.322s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/msg/PosCmd.msg
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/srv/Enable.srv
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/srv/Enable_Request.msg
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/srv/Enable_Response.msg
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/ament_index/resource_index/package_run_dependencies/piper_msgs
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/ament_index/resource_index/parent_prefix_path/piper_msgs
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/ament_prefix_path.sh
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/ament_prefix_path.dsv
+[4.323s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/path.sh
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/environment/path.dsv
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/local_setup.bash
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/local_setup.sh
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/local_setup.zsh
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/local_setup.dsv
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/package.dsv
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/ament_index/resource_index/packages/piper_msgs
+[4.324s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_generator_cExport.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_cExport.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_generator_cppExport.cmake
+[4.325s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_cppExport.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_generator_pyExport.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/export_piper_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.326s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/rosidl_cmake-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgsConfig.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/cmake/piper_msgsConfig-version.cmake
+[4.327s] -- Installing: /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_msgs/share/piper_msgs/package.xml
+[4.330s] Invoked command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --install /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_msgs

@@ -1,0 +1,23 @@
+[0.263s] Invoking command in '/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/xela_server_ros2 -- -j20 -l20
+[0.328s] [  1%] Built target xela_server_ros2__cpp
+[0.329s] [ 12%] Built target xela_server_ros2__rosidl_generator_c
+[0.330s] [ 12%] Built target ament_cmake_python_copy_xela_server_ros2
+[0.348s] [ 23%] Built target xela_server_ros2__rosidl_typesupport_cpp
+[0.349s] [ 34%] Built target xela_server_ros2__rosidl_typesupport_introspection_cpp
+[0.350s] [ 46%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_cpp
+[0.356s] [ 57%] Built target xela_server_ros2__rosidl_typesupport_c
+[0.357s] [ 68%] Built target xela_server_ros2__rosidl_typesupport_introspection_c
+[0.358s] [ 79%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c
+[0.377s] [ 79%] Built target xela_server_ros2
+[0.405s] [ 80%] Built target xela_server_ros2__py
+[0.425s] [ 90%] Built target xela_server_ros2__rosidl_generator_py
+[0.451s] [ 93%] Built target xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.452s] [100%] Built target xela_server_ros2__rosidl_typesupport_introspection_c__pyext
+[0.452s] [100%] Built target xela_server_ros2__rosidl_typesupport_c__pyext
+[0.624s] running egg_info
+[0.646s] writing xela_server_ros2.egg-info/PKG-INFO
+[0.646s] writing dependency_links to xela_server_ros2.egg-info/dependency_links.txt
+[0.647s] writing top-level names to xela_server_ros2.egg-info/top_level.txt
+[0.717s] reading manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+[0.719s] writing manifest file 'xela_server_ros2.egg-info/SOURCES.txt'
+[0.746s] [100%] Built target ament_cmake_python_build_xela_server_ros2_egg

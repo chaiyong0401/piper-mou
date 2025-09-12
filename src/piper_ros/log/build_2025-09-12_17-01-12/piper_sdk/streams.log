@@ -1,0 +1,163 @@
+[0.965s] Invoking command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_sdk': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/prefix_override:/home/dyros/miniconda3/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_sdk/lib/python3.10/site-packages:${PYTHONPATH} /home/dyros/miniconda3/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper_sdk build --build-base /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build install --record /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/install.log --single-version-externally-managed
+[1.101s] /home/dyros/.local/lib/python3.10/site-packages/setuptools/__init__.py:92: _DeprecatedInstaller: setuptools.installer and fetch_build_eggs are deprecated.
+[1.101s] !!
+[1.101s] 
+[1.101s]         ********************************************************************************
+[1.101s]         Requirements should be satisfied by a PEP 517 installer.
+[1.101s]         If you are using pip, you can try `pip install --use-pep517`.
+[1.102s] 
+[1.102s]         By 2025-Oct-31, you need to update your project and remove deprecated calls
+[1.102s]         or your builds will no longer be supported.
+[1.102s]         ********************************************************************************
+[1.102s] 
+[1.102s] !!
+[1.102s]   dist.fetch_build_eggs(dist.setup_requires)
+[1.186s] /home/dyros/.local/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[1.186s] !!
+[1.186s] 
+[1.186s]         ********************************************************************************
+[1.186s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[1.186s] 
+[1.186s]         License :: OSI Approved :: MIT License
+[1.186s] 
+[1.186s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[1.186s]         ********************************************************************************
+[1.186s] 
+[1.187s] !!
+[1.187s]   self._finalize_license_expression()
+[1.234s] running egg_info
+[1.249s] writing ../../build/piper_sdk/piper_sdk.egg-info/PKG-INFO
+[1.250s] writing dependency_links to ../../build/piper_sdk/piper_sdk.egg-info/dependency_links.txt
+[1.250s] writing requirements to ../../build/piper_sdk/piper_sdk.egg-info/requires.txt
+[1.251s] writing top-level names to ../../build/piper_sdk/piper_sdk.egg-info/top_level.txt
+[1.287s] reading manifest file '../../build/piper_sdk/piper_sdk.egg-info/SOURCES.txt'
+[1.288s] reading manifest template 'MANIFEST.in'
+[1.289s] warning: no files found matching 'piper_sdk/*.MD'
+[1.289s] warning: no files found matching 'piper_sdk/LICENSE'
+[1.289s] adding license file 'LICENSE'
+[1.289s] warning: no files found matching '*' under directory 'piper_sdk/asserts'
+[1.292s] writing manifest file '../../build/piper_sdk/piper_sdk.egg-info/SOURCES.txt'
+[1.292s] running build
+[1.292s] running build_py
+[1.292s] copying piper_sdk/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.293s] copying piper_sdk/version.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.293s] copying piper_sdk/utils/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/utils
+[1.293s] copying piper_sdk/utils/logger_mag.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/utils
+[1.293s] copying piper_sdk/utils/tf.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/utils
+[1.294s] copying piper_sdk/utils/fps.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/utils
+[1.294s] copying piper_sdk/interface/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/interface
+[1.294s] copying piper_sdk/interface/piper_interface.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/interface
+[1.294s] copying piper_sdk/interface/interface_version.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/interface
+[1.295s] copying piper_sdk/interface/piper_interface_v2.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/interface
+[1.295s] copying piper_sdk/hardware_port/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/hardware_port
+[1.295s] copying piper_sdk/hardware_port/can_encapsulation_v0_4_0.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/hardware_port
+[1.295s] copying piper_sdk/hardware_port/can_encapsulation.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/hardware_port
+[1.296s] copying piper_sdk/piper_param/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_param
+[1.296s] copying piper_sdk/piper_param/piper_param_manager.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_param
+[1.296s] copying piper_sdk/piper_msgs/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs
+[1.296s] copying piper_sdk/kinematics/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/kinematics
+[1.297s] copying piper_sdk/kinematics/piper_fk.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/kinematics
+[1.297s] copying piper_sdk/log/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/log
+[1.297s] copying piper_sdk/demo/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo
+[1.297s] copying piper_sdk/demo/detect_arm.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo
+[1.297s] copying piper_sdk/demo/manage_vcan.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo
+[1.298s] copying piper_sdk/protocol/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/protocol
+[1.298s] copying piper_sdk/protocol/piper_protocol_base.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/protocol
+[1.298s] copying piper_sdk/piper_msgs/msg_v2/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.299s] copying piper_sdk/piper_msgs/msg_v2/arm_id_type_map.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.299s] copying piper_sdk/piper_msgs/msg_v2/arm_messages.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.299s] copying piper_sdk/piper_msgs/msg_v2/can_id.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.299s] copying piper_sdk/piper_msgs/msg_v2/arm_msg_type.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.300s] copying piper_sdk/piper_msgs/msg_v2/feedback/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.300s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_crash_protection_rating.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.300s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_status.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.300s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_high_spd.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.301s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_end_pose.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.301s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_joint_vel_acc.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.301s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_joint_states.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.301s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_gripper.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.302s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_current_motor_angle_limit_max_spd.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.302s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_gripper_teaching_param.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.302s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_current_end_vel_acc_param.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.302s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_low_spd.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.302s] copying piper_sdk/piper_msgs/msg_v2/feedback/arm_feedback_current_motor_max_acc_limit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/feedback
+[1.303s] copying piper_sdk/piper_msgs/msg_v2/transmit/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.303s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_joint_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.303s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_motion_ctrl_2.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.304s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_light_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.304s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_param_enquiry_and_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.304s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_motion_ctrl_cartesian.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.304s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_master_slave_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.304s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_crash_protection_rating_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.305s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_motor_enable_disable.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.305s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_motor_angle_limit_max_spd_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.305s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_set_instruction_response.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.305s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_search_motor_max_angle_spd_acc_limit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.305s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_motion_ctrl_1.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.306s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_end_vel_acc_param_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.306s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_circular_pattern.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.306s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_joint_mit_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.306s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_gripper_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.306s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_joint_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.307s] copying piper_sdk/piper_msgs/msg_v2/transmit/arm_gripper_teaching_param_config.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2/transmit
+[1.307s] copying piper_sdk/demo/V2/piper_set_motor_max_acc_limit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/piper_read_status.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/piper_set_master.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/piper_set_mit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/piper_ctrl_enable.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.308s] copying piper_sdk/demo/V2/piper_ctrl_moveC.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/V2_piper_set_installation_pos.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/piper_ctrl_joint.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/piper_read_high_msg.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/V2_piper_ctrl_motor_max_spd.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/piper_ctrl_disable.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.309s] copying piper_sdk/demo/V2/piper_read_arm_motor_max_angle_spd.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.310s] copying piper_sdk/demo/V2/piper_set_init_default.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.310s] copying piper_sdk/demo/V2/piper_read_joint_state.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.310s] copying piper_sdk/demo/V2/piper_read_gripper_status.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.310s] copying piper_sdk/demo/V2/piper_test_multi_interface_instance.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.310s] copying piper_sdk/demo/V2/piper_read_joint_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_read_crash_protectation.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_ctrl_line.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_ctrl_stop.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_read_mode_ctrl.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_read_end_pose.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_ctrl_end_pose.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.311s] copying piper_sdk/demo/V2/piper_set_load.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.312s] copying piper_sdk/demo/V2/piper_read_all_fps.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.312s] copying piper_sdk/demo/V2/piper_read_fk.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.312s] copying piper_sdk/demo/V2/piper_read_arm_motor_max_acc_limit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.313s] copying piper_sdk/demo/V2/piper_test_interface_disconnect.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.313s] copying piper_sdk/demo/V2/piper_read_low_msg.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.313s] copying piper_sdk/demo/V2/piper_set_slave.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.314s] copying piper_sdk/demo/V2/piper_ctrl_go_zero.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.314s] copying piper_sdk/demo/V2/piper_set_sdk_param.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.315s] copying piper_sdk/demo/V2/V2_piper_set_gripper_param.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.315s] copying piper_sdk/demo/V2/piper_ctrl_reset.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.315s] copying piper_sdk/demo/V2/piper_ctrl_gripper.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.315s] copying piper_sdk/demo/V2/piper_read_firmware.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.315s] copying piper_sdk/demo/V2/piper_set_gripper_zero.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/demo/V2/V2_piper_ctrl_joint_mit.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/demo/V2/V2_piper_read_gripper_param_feedback.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/demo/V2/piper_read_mode_ctrl_canid_151.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/demo/V2/piper_set_log_level.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/demo/V2/piper_read_version.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.316s] copying piper_sdk/protocol/protocol_v2/__init__.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/protocol/protocol_v2
+[1.316s] copying piper_sdk/protocol/protocol_v2/piper_protocol_v2.py -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/protocol/protocol_v2
+[1.319s] copying piper_sdk/can_activate.sh -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.319s] copying piper_sdk/can_config.sh -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.319s] copying piper_sdk/can_find_and_config.sh -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.320s] copying piper_sdk/can_muti_activate.sh -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.320s] copying piper_sdk/find_all_can_port.sh -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk
+[1.321s] copying piper_sdk/demo/detect_arm.MD -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo
+[1.321s] copying piper_sdk/piper_msgs/msg_v2/CHANGELOG.MD -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/piper_msgs/msg_v2
+[1.321s] copying piper_sdk/demo/V2/README.MD -> /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build/lib/piper_sdk/demo/V2
+[1.322s] running install
+[1.327s] running install_lib
+[1.347s] running install_egg_info
+[1.360s] removing '/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_sdk/lib/python3.10/site-packages/piper_sdk-0.4.2-py3.10.egg-info' (and everything under it)
+[1.361s] Copying ../../build/piper_sdk/piper_sdk.egg-info to /home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_sdk/lib/python3.10/site-packages/piper_sdk-0.4.2-py3.10.egg-info
+[1.361s] running install_scripts
+[1.392s] writing list of installed files to '/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/install.log'
+[1.408s] Invoked command in '/home/dyros/mcy_ws/piper-mou/src/piper_ros/src/piper_sdk' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/prefix_override:/home/dyros/miniconda3/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/dyros/mcy_ws/piper-mou/src/piper_ros/install/piper_sdk/lib/python3.10/site-packages:${PYTHONPATH} /home/dyros/miniconda3/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper_sdk build --build-base /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/build install --record /home/dyros/mcy_ws/piper-mou/src/piper_ros/build/piper_sdk/install.log --single-version-externally-managed

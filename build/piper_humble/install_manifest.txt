@@ -1,0 +1,15 @@
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/ament_index/resource_index/package_run_dependencies/piper_humble
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/ament_index/resource_index/parent_prefix_path/piper_humble
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/environment/ament_prefix_path.sh
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/environment/ament_prefix_path.dsv
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/environment/path.sh
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/environment/path.dsv
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/local_setup.bash
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/local_setup.sh
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/local_setup.zsh
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/local_setup.dsv
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.dsv
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/ament_index/resource_index/packages/piper_humble
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig.cmake
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig-version.cmake
+/home/dyros/mcy_ws/piper-mou/install/piper_humble/share/piper_humble/package.xml

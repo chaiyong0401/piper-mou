@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib -- -j20 -l20
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target trac_ik[0m
+[0.296s] [ 25%] [32mBuilding CXX object CMakeFiles/trac_ik.dir/src/trac_ik.cpp.o[0m
+[3.074s] [01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:[m[K In constructor ‘[01m[KTRAC_IK::TRAC_IK::TRAC_IK(rclcpp::Node::SharedPtr, const string&, const string&, const string&, double, double, TRAC_IK::SolveType)[m[K’:
+[3.074s] [01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[KModel[m[K’ is not a member of ‘[01m[Kurdf[m[K’
+[3.074s]    50 |   urdf::[01;31m[KModel[m[K robot_model;
+[3.074s]       |         [01;31m[K^~~~~[m[K
+[3.083s] [01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:64:8:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+[3.083s]    64 |   if (![01;31m[Krobot_model[m[K.initString(xml_string))
+[3.083s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.091s] [01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+[3.091s]    74 |   if (!kdl_parser::treeFromUrdfModel([01;31m[Krobot_model[m[K, tree))
+[3.092s]       |                                      [01;31m[K^~~~~~~~~~~[m[K
+[3.100s] [01m[K/home/dyros/mcy_ws/piper-mou/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ was not declared in this scope
+[3.100s]    92 |     joint = [01;31m[Krobot_model[m[K.getJoint(chain_segs[i].getJoint().getName());
+[3.100s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.219s] gmake[2]: *** [CMakeFiles/trac_ik.dir/build.make:104: CMakeFiles/trac_ik.dir/src/trac_ik.cpp.o] Error 1
+[6.220s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trac_ik.dir/all] Error 2
+[6.220s] gmake: *** [Makefile:146: all] Error 2
+[6.222s] Invoked command in '/home/dyros/mcy_ws/piper-mou/build/trac_ik_lib' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dyros/mcy_ws/piper-mou/install/piper:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dyros/mcy_ws/piper-mou/build/trac_ik_lib -- -j20 -l20

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-44b57289e7a0dda8b59d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "xela_server_ros2__py",
+					"jsonFile" : "directory-xela_server_ros2__py-20301d217f796fb4ceb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2/xela_server_ros2__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xela_server_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xela_server_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xela_server_ros2_egg-600a90aaf5f7f48db7be.json",
+					"name" : "ament_cmake_python_build_xela_server_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xela_server_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xela_server_ros2-d90633107fc12c200258.json",
+					"name" : "ament_cmake_python_copy_xela_server_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-210113517fc366e52751.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2-23cd8374e9eade025d26.json",
+					"name" : "xela_server_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__cpp-8a23b5e8656084f12996.json",
+					"name" : "xela_server_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xela_server_ros2__py::@6bfa3b22dbdbd1909dcd",
+					"jsonFile" : "target-xela_server_ros2__py-f031cff05804ecaddce4.json",
+					"name" : "xela_server_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_generator_c-3606a99b3063359ee276.json",
+					"name" : "xela_server_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_generator_py-a32720a9b6231c26a00d.json",
+					"name" : "xela_server_ros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_c-02243e38a43967ac2d8c.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_c__pyext-f8a806835dd5eb755ed1.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_cpp-6b64e550aabcb0e296fa.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_fastrtps_c-ec1464b0f370a8c1716a.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext-a5ccb8e3d0d682c512bc.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_fastrtps_cpp-6e2d9484bbcea25b5185.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_introspection_c-b2fcbeec98d67f6b893e.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_introspection_c__pyext-c57e5b76298cc01d7be1.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2__rosidl_typesupport_introspection_cpp-49ee1f7359f778d2a08a.json",
+					"name" : "xela_server_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xela_server_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xela_server_ros2_uninstall-b05e34d358cc3b8672d7.json",
+					"name" : "xela_server_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dyros/mcy_ws/piper-mou/build/xela_server_ros2",
+		"source" : "/home/dyros/mcy_ws/piper-mou/src/xela_server_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
